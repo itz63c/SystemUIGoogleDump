@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/tv_volume_dialog_seek_bar_background" />
+            <corners android:radius="@dimen/tv_volume_seek_bar_width" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="@color/tv_volume_dialog_seek_bar_fill" />
+                <corners android:radius="@dimen/tv_volume_seek_bar_width" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

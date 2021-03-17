@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/game_menu_widget_background" android:layout_width="@dimen/game_menu_widget_size" android:layout_height="@dimen/game_menu_widget_size" android:backgroundTint="@color/game_menu_widget_background" android:paddingHorizontal="@dimen/game_menu_widget_padding" android:paddingVertical="@dimen/game_menu_widget_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:background="#00000000" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="16.0dip" android:backgroundTint="#00000000" />
+    <TextView android:textSize="@dimen/game_menu_widget_title_text_size" android:textColor="@color/game_menu_text" android:ellipsize="none" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:maxLines="2" android:lines="2" android:fontFamily="google-sans" />
+    <TextView android:textSize="@dimen/game_menu_widget_description_text_size" android:textColor="@color/game_menu_text" android:ellipsize="none" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:lines="2" android:fontFamily="google-sans" />
+</LinearLayout>

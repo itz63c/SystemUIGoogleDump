@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.KeyguardUserSwitcherView android:layout_gravity="end" android:id="@id/keyguard_user_switcher_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.systemui.statusbar.policy.KeyguardUserSwitcherListView android:gravity="end" android:layout_gravity="end|center|top" android:orientation="vertical" android:id="@id/keyguard_user_switcher_list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/end_guest_button" android:background="@drawable/end_guest_button_background" android:paddingLeft="@dimen/end_guest_button_padding_horizontal" android:paddingRight="@dimen/end_guest_button_padding_horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/end_guest_button_layout_height" android:layout_marginBottom="@dimen/end_guest_button_margin_bottom" android:layout_centerHorizontal="true">
+        <ImageView android:gravity="center" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_exit_to_app" android:color="?wallpaperTextColor" />
+        <TextView android:textSize="13.0sp" android:textColor="?wallpaperTextColor" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guest_exit_button" android:fontFamily="@android:string/ext_media_unsupported_notification_title" />
+    </LinearLayout>
+</com.android.systemui.statusbar.policy.KeyguardUserSwitcherView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/end_guest_button_border_size" android:color="?android:colorControlHighlight" />
+    <corners android:radius="@dimen/end_guest_button_corner_radius" />
+</shape>

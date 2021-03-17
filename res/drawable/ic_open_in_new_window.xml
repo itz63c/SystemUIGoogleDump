@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/magnification_switch_button_color" />
+            <size android:height="48.0dip" android:width="48.0dip" />
+        </shape>
+    </item>
+    <item>
+        <vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <group android:translateX="1.5" android:translateY="1.5">
+                <path android:pathData="M 3.5 1.5 L 17.5 1.5 Q 19.5 1.5 19.5 3.5 L 19.5 17.5 Q 19.5 19.5 17.5 19.5 L 3.5 19.5 Q 1.5 19.5 1.5 17.5 L 1.5 3.5 Q 1.5 1.5 3.5 1.5 Z" android:strokeColor="#ffffffff" android:strokeWidth="2.0" android:fillType="evenOdd" />
+                <path android:pathData="M 4.25 4.25 H 8.75 V 8.75 H 4.25 V 4.25 Z" android:strokeColor="#ffffffff" android:strokeWidth="1.5" android:fillType="evenOdd" />
+                <path android:fillColor="#ffffffff" android:pathData="M 12.5 13.92 L 15.59 17 L 17 15.59 L 13.91 12.5 L 16.5 12.5 L 16.5 10.5 L 10.5 10.5 L 10.5 16.5 L 12.5 16.5 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+            </group>
+            <group android:translateX="22.0" android:translateY="2.0">
+                <group android:translateX="3.0" android:translateY="3.0">
+                    <group android:translateX="-3.0" android:translateY="-3.0">
+                        <path android:fillColor="#ff80868b" android:pathData="M 0 0 H 24 V 24 H 0 V 0 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+                    </group>
+                </group>
+            </group>
+        </vector>
+    </item>
+    <item>
+        <ripple android:color="@color/GM2_grey_600" />
+    </item>
+</layer-list>

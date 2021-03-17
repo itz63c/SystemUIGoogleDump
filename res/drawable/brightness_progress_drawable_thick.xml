@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingMode="stack"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/background">
+        <layer-list>
+            <item>
+                <shape android:tint="?android:colorControlActivated" android:alpha="?android:disabledAlpha">
+                    <size android:height="@dimen/rounded_slider_height" />
+                    <solid android:color="@color/white_disabled" />
+                    <corners android:radius="@dimen/rounded_slider_corner_radius" />
+                </shape>
+            </item>
+            <item android:gravity="center|left" android:height="@dimen/rounded_slider_icon_size" android:width="@dimen/rounded_slider_icon_size" android:left="@dimen/rounded_slider_icon_inset">
+                <com.android.systemui.util.AlphaTintDrawableWrapper android:tint="?android:colorControlActivated" android:drawable="@drawable/ic_brightness" />
+            </item>
+        </layer-list>
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@android:id/progress">
+        <com.android.systemui.util.RoundedCornerProgressDrawable android:drawable="@drawable/brightness_progress_full_drawable" />
+    </item>
+</layer-list>
