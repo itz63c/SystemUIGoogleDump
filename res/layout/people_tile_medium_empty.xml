@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@android:style/AlertDialog.DeviceDefault.Light" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/item" android:background="@drawable/people_space_tile_view_card" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="16.0dip">
+        <ImageView android:id="@id/person_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="-2.0dip" android:layout_marginStart="-2.0dip" />
+        <ImageView android:id="@id/availability" android:background="@drawable/circle_green_10dp" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginStart="-2.0dip" />
+        <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="6.0dip">
+            <TextView android:textAppearance="@android:style/TextAppearance.Large.Inverse.NumberPickerInputText" android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_user_name" android:maxLines="1" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Large.Inverse.NumberPickerInputText" android:textSize="12.0sp" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/last_interaction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_status" android:maxLines="3" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

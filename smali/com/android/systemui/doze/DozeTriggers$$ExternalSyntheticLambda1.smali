@@ -1,0 +1,33 @@
+.class public final synthetic Lcom/android/systemui/doze/DozeTriggers$$ExternalSyntheticLambda1;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic f$0:Lcom/android/systemui/doze/DozeTriggers;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/android/systemui/doze/DozeTriggers;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/android/systemui/doze/DozeTriggers$$ExternalSyntheticLambda1;->f$0:Lcom/android/systemui/doze/DozeTriggers;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 0
+
+    iget-object p0, p0, Lcom/android/systemui/doze/DozeTriggers$$ExternalSyntheticLambda1;->f$0:Lcom/android/systemui/doze/DozeTriggers;
+
+    invoke-static {p0}, Lcom/android/systemui/doze/DozeTriggers;->$r8$lambda$Glg9cBtj4eQEGUm402IgAUhRtKI(Lcom/android/systemui/doze/DozeTriggers;)V
+
+    return-void
+.end method

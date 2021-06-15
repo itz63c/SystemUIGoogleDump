@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@android:style/AlertDialog.DeviceDefault.Light" android:layout_gravity="center" android:orientation="vertical" android:id="@id/item" android:background="@drawable/people_space_tile_view_card" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/people_tile_punctuation_background_medium" />
+        <include layout="@layout/people_tile_punctuation_background_medium" />
+        <include layout="@layout/people_status_scrim_layout" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/content" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:gravity="start" android:id="@id/person_icon" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginTop="-2.0dip" android:layout_marginStart="-2.0dip" />
+                <ImageView android:id="@id/availability" android:background="@drawable/circle_green_10dp" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginStart="-2.0dip" />
+                <LinearLayout android:gravity="start|center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip">
+                    <TextView android:textAppearance="@android:style/TextAppearance.Large.Inverse.NumberPickerInputText" android:textSize="12.0sp" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/subtext" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/empty_user_name" android:singleLine="true" />
+                    <ImageView android:gravity="center" android:id="@id/image" android:background="@drawable/people_space_content_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                    <TextView android:textAppearance="@android:style/TextAppearance.Large.Inverse.NumberPickerInputText" android:textSize="@dimen/content_text_size_for_medium" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/text_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/empty_status" android:maxLines="2" android:singleLine="false" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="true">
+                <TextView android:textAppearance="@android:style/TextAppearance.Large.Inverse.NumberPickerInputText" android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_user_name" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textAppearance="@android:style/TextAppearance.Large.Inverse.NumberPickerInputText" android:textSize="14.0sp" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:gravity="end" android:id="@id/messages_count" android:background="@drawable/people_space_messages_count_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+                <ImageView android:gravity="end|center" android:id="@id/predefined_icon" android:layout_width="24.0dip" android:layout_height="18.0dip" android:tint="?android:colorAccent" android:paddingStart="6.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

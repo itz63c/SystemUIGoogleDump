@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="volume_dialog_background_color">#e61f232b</color>
+    <color name="volume_dialog_background_color_above_blur">#c71f232b</color>
+</resources>

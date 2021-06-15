@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="shutdown_scrim_behind_alpha">1.0</item>
+    <dimen name="privacy_chip_icon_margin">3.0dip</dimen>
+    <dimen name="privacy_chip_icon_padding">8.0dip</dimen>
+    <dimen name="privacy_chip_icon_size">13.0dip</dimen>
+</resources>

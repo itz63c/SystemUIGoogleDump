@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.biometrics.UdfpsKeyguardView android:id="@id/udfps_animation_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/udfps_keyguard_fp_bg" android:background="@drawable/fingerprint_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/udfps_keyguard_animation_fp_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.systemui.biometrics.UdfpsKeyguardView>

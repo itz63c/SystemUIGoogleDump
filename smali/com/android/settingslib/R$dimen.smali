@@ -1,0 +1,27 @@
+.class public final Lcom/android/settingslib/R$dimen;
+.super Ljava/lang/Object;
+.source "R.java"
+
+
+# static fields
+.field public static final advanced_icon_size:I = 0x7f070086
+
+.field public static final appear_y_translation_start:I = 0x7f07008d
+
+.field public static final battery_height:I = 0x7f0700a8
+
+.field public static final battery_powersave_outline_thickness:I = 0x7f0700ac
+
+.field public static final battery_width:I = 0x7f0700ad
+
+.field public static final bt_battery_padding:I = 0x7f0700c0
+
+.field public static final bt_nearby_icon_size:I = 0x7f0700c1
+
+.field public static final circle_avatar_size:I = 0x7f07010f
+
+.field public static final signal_icon_size:I = 0x7f07065c
+
+.field public static final update_user_photo_popup_min_width:I = 0x7f0706d1
+
+.field public static final wifi_preference_badge_padding:I = 0x7f070725

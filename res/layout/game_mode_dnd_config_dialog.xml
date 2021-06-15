@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/game_mode_dnd_config_dialog" android:layout_width="@dimen/game_menu_contents_width" android:layout_height="wrap_content" android:layout_marginHorizontal="8.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="4.0dip">
+        <ImageView android:layout_gravity="left" android:layout_width="48.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_info" android:tint="?android:textColorPrimary" />
+        <Space android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="right" android:id="@id/game_mode_dnd_config_dialog_close" android:clickable="true" android:layout_width="48.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:tint="?android:textColorPrimary" android:contentDescription="@string/accessibility_game_dashboard_dnd_config_dialog_exit" />
+    </LinearLayout>
+    <View android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <TextView android:textSize="@dimen/game_mode_dnd_config_text_size" android:textColor="?android:textColorSecondary" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/game_mode_dnd_config_dialog" android:fontFamily="google-sans" />
+</LinearLayout>

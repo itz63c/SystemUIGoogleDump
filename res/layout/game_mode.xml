@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/game_menu_contents_width" android:layout_height="wrap_content" android:layout_marginHorizontal="8.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:textColorPrimary" android:layout_width="wrap_content" android:layout_height="@dimen/game_mode_subtitle_height" android:layout_marginTop="16.0dip" android:text="@string/game_mode_subtitle" android:textAllCaps="true" android:layout_marginStart="@dimen/game_mode_subtitle_marginStart" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/performance_mode" android:paddingTop="@dimen/game_mode_entry_paddingTop" android:paddingBottom="@dimen/game_mode_entry_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/game_mode_icon_size" android:layout_height="@dimen/game_mode_icon_size" android:src="@drawable/ic_game_mode_performance" android:tint="?android:textColorPrimary" />
+        <Space android:layout_width="16.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/game_mode_text_width" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/game_mode_title_text_size" android:textColor="?android:textColorPrimary" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/game_mode_text_marginBottom" android:text="@string/game_mode_performance_title" android:singleLine="true" android:fontFamily="google-sans" />
+            <TextView android:textSize="@dimen/game_mode_description_text_size" android:textColor="?android:textColorSecondary" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/game_mode_performance_description" android:maxLines="2" android:fontFamily="google-sans" />
+        </LinearLayout>
+        <Space android:layout_width="16.0dip" android:layout_height="1.0dip" />
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/performance_mode_radio_button" android:layout_width="24.0dip" android:layout_height="24.0dip" android:button="@drawable/game_mode_radio_button" android:buttonTint="?android:textColorTertiary" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/standard_mode" android:paddingTop="@dimen/game_mode_entry_paddingTop" android:paddingBottom="@dimen/game_mode_entry_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/game_mode_icon_size" android:layout_height="@dimen/game_mode_icon_size" android:src="@drawable/ic_game_mode_standard" android:tint="?android:textColorPrimary" />
+        <Space android:layout_width="16.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/game_mode_text_width" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/game_mode_title_text_size" android:textColor="?android:textColorPrimary" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/game_mode_text_marginBottom" android:text="@string/game_mode_standard_title" android:singleLine="true" android:fontFamily="google-sans" />
+            <TextView android:textSize="@dimen/game_mode_description_text_size" android:textColor="?android:textColorSecondary" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/game_mode_standard_description" android:maxLines="2" android:fontFamily="google-sans" />
+        </LinearLayout>
+        <Space android:layout_width="16.0dip" android:layout_height="1.0dip" />
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/standard_mode_radio_button" android:layout_width="24.0dip" android:layout_height="24.0dip" android:button="@drawable/game_mode_radio_button" android:buttonTint="?android:textColorTertiary" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/battery_mode" android:paddingTop="@dimen/game_mode_entry_paddingTop" android:paddingBottom="@dimen/game_mode_entry_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/game_mode_icon_size" android:layout_height="@dimen/game_mode_icon_size" android:src="@drawable/ic_game_mode_battery" android:tint="?android:textColorPrimary" />
+        <Space android:layout_width="16.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/game_mode_text_width" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/game_mode_title_text_size" android:textColor="?android:textColorPrimary" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/game_mode_text_marginBottom" android:text="@string/game_mode_battery_title" android:singleLine="true" android:fontFamily="google-sans" />
+            <TextView android:textSize="@dimen/game_mode_description_text_size" android:textColor="?android:textColorSecondary" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/game_mode_battery_description" android:maxLines="2" android:fontFamily="google-sans" />
+        </LinearLayout>
+        <Space android:layout_width="16.0dip" android:layout_height="1.0dip" />
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/battery_mode_radio_button" android:layout_width="24.0dip" android:layout_height="24.0dip" android:button="@drawable/game_mode_radio_button" android:buttonTint="?android:textColorTertiary" />
+    </LinearLayout>
+</LinearLayout>
